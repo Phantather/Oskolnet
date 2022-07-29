@@ -21,7 +21,7 @@ const HeaderRight = () => {
                 </div>
             </div>
             <div className="header__btns">
-                <button className="btn header__btnLight" type="button">
+                <button className="btn header__btnLight" >
                     Личный кабинет
                 </button>
                 <button className="btn header__btnDark" type="button">

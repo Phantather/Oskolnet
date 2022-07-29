@@ -1,0 +1,26 @@
+.begin {
+  background: linear-gradient(136.49deg, #263057 25.34%, #1D1444 89.06%);
+  padding: 43px 0;
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #FFFFFF;
+    box-shadow: 0 64px 194px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    padding: 0 110px 0 65px;
+    &-title {
+      @include fonts(700, 62px, 90%);
+      color: $primary-color;
+      margin-bottom: 28px;
+    }
+    &-small {
+      @include fonts(400, 40px, 90%);
+    }
+    &-btnLight {
+      background: #6984F0;
+      padding: 0 26px;
+      box-shadow: 10px 10px 28px rgba(105, 132, 240, 0.2);
+    }
+  }
+}

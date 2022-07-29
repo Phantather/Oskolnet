@@ -1,10 +1,13 @@
 import React from 'react';
+import BeginContent from "./BeginContent";
 
 const Begin = () => {
     return (
-        <div>
-            
-        </div>
+        <section className="begin">
+            <div className="container">
+                <BeginContent/>
+            </div>
+        </section>
     );
 };
 

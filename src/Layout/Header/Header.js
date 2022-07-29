@@ -1,5 +1,4 @@
 import React from 'react';
-import {Link} from "react-router-dom";
 import HeaderRight from "./HeaderRight";
 import HeaderLeft from "./HeaderLeft";
 
@@ -8,8 +7,8 @@ const Header = () => {
         <header className="header">
             <div className="container">
                 <nav className="header__nav">
-                    <HeaderRight/>
                     <HeaderLeft/>
+                    <HeaderRight/>
                 </nav>
             </div>
         </header>
