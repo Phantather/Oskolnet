@@ -1,0 +1,8 @@
+@mixin fonts ($fw, $fz, $lh) {
+  font-weight: $fw;
+  font-size: $fz;
+  line-height: $lh;
+}
+
+$primary-color: #263057;
+$light-color: #6984F0;

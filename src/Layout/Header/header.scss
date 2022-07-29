@@ -1,0 +1,53 @@
+.header {
+  padding: 26px 0;
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__left {
+    display: flex;
+    align-items: center;
+    column-gap: 26px;
+  }
+  &__list {
+    display: flex;
+    column-gap: 26px;
+  }
+  &__link {
+    @include fonts(400, 18px, 27px);
+    color: $primary-color;
+  }
+  &__right {
+    display: flex;
+    align-items: center;
+    column-gap: 26px;
+  }
+  &__contact {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    &-link {
+      @include fonts(700, 17px, 25px);
+      color: $primary-color;
+    }
+    &-desc {
+      @include fonts(400, 14px, 21px);
+      letter-spacing: 0.28em;
+      color: $primary-color;
+      opacity: 0.5;
+    }
+  }
+  &__btns {
+    display: flex;
+    column-gap: 26px;
+  }
+  &__btnLight {
+    background: $light-color;
+    padding: 0 17px;
+  }
+  &__btnDark {
+    background: $primary-color;
+    padding: 0 25px;
+  }
+}
