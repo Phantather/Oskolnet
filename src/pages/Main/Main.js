@@ -3,6 +3,7 @@ import Begin from "./Begin/Begin";
 import Rate from "./Rate/Rate";
 import News from "./News/News";
 import About from "./About/About";
+import Documents from "./Documents/Documents";
 
 const Main = () => {
     return (
@@ -11,6 +12,7 @@ const Main = () => {
             <Rate/>
             <About/>
             <News/>
+            <Documents/>
         </main>
     );
 };

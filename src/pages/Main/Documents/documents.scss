@@ -1,0 +1,29 @@
+.documents {
+  padding: 51px 0 63px;
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 47px 40px;
+    background: #F1F2F4;
+    border-radius: 15px;
+    margin: 41px 0;
+  }
+  &__info {
+    display: flex;
+    align-items: center;
+    column-gap: 17px;
+  }
+  &__text {
+    @include fonts(400, 17px, 26px);
+    letter-spacing: -0.02em;
+    color: $primary-color;
+  }
+  &__btn {
+    display: flex;
+    margin: 0 auto;
+    height: 48px;
+    background-color: $light-color;
+    padding: 12px 65px;
+  }
+}
