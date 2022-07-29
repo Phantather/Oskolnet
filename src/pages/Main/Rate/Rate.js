@@ -1,5 +1,8 @@
 import React from 'react';
 import RateInfo from "./RateInfo/RateInfo";
+import RateCall from "./RateCall";
+import RateAddress from "./RateAddress";
+import RateSpeed from "./RateSpeed";
 
 const Rate = () => {
     return (
@@ -9,6 +12,9 @@ const Rate = () => {
                     тарифы для дома
                 </h2>
                 <RateInfo/>
+                <RateCall/>
+                <RateAddress/>
+                <RateSpeed/>
             </div>
         </section>
     );
