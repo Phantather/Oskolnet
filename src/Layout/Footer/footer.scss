@@ -1,0 +1,53 @@
+.footer {
+  padding: 101px 0 55px;
+  background: linear-gradient(136.49deg, #263057 25.34%, #1D1444 89.06%);
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+  }
+  &__link {
+    @include fonts(400, 20px, 29px);
+    color: #FFFFFF;
+  }
+  &__btns {
+    display: flex;
+    column-gap: 20px;
+  }
+  &__btn {
+    padding: 8px 20px;
+    background: $light-color;
+  }
+  &__tel {
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    margin: 24px 0 14px;
+    &-link {
+      @include fonts(700, 18px, 140%);
+      color: #FFFFFF;
+    }
+    &-text {
+      @include fonts(700, 18px, 140%);
+      color: #FFFFFF50;
+    }
+  }
+  &__social {
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+  }
+  &__bottom {
+    margin-top: 90px;
+    display: flex;
+    column-gap: 160px;
+    &-text {
+      @include fonts(700, 18px, 140%);
+      color: #FFFFFF50;
+    }
+  }
+}
