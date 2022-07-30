@@ -6,6 +6,7 @@ import {Routes, Route} from "react-router-dom";
 import Document from "../pages/Document/Document";
 import ForHome from "../pages/ForHome/ForHome";
 import ForBusiness from "../pages/ForBusiness/ForBusiness";
+import News from "../pages/News/News";
 
 const Layout = () => {
     return (
@@ -16,6 +17,7 @@ const Layout = () => {
                 <Route path={'/document'} element={<Document/>}/>
                 <Route path={'/forHome'} element={<ForHome/>}/>
                 <Route path={'/forBusiness'} element={<ForBusiness/>}/>
+                <Route path={'/news'} element={<News/>}/>
             </Routes>
             <Footer/>
         </>

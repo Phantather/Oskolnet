@@ -18,7 +18,7 @@ const Footer = () => {
                             </Link>
                         </li>
                         <li className="footer__item">
-                            <Link className="footer__link" to={'/documents'}>
+                            <Link className="footer__link" to={'/document'}>
                                 Документы
                             </Link>
                         </li>
