@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from "react-router-dom";
 
-const FooterList = ({link1, link2, link3}) => {
+const FooterList = () => {
     return (
         <>
             <ul className="footer__list">

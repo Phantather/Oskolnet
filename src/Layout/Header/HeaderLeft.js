@@ -35,7 +35,7 @@ const HeaderLeft = () => {
                     </Link>
                 </li>
                 <li className="header__item">
-                    <Link to={'/contacts'} className="header__link">
+                    <Link to={'/contact'} className="header__link">
                         Контакты
                     </Link>
                 </li>

@@ -1,7 +1,11 @@
 import React from 'react';
+import {useNavigate} from "react-router-dom";
 
 
 const HeaderRight = () => {
+
+    const navigate = useNavigate();
+
     return (
         <div className="header__right">
             <div className="header__contact">
@@ -24,7 +28,7 @@ const HeaderRight = () => {
                 <button className="btn header__btnLight" >
                     Личный кабинет
                 </button>
-                <button className="btn header__btnDark" type="button">
+                <button className="btn header__btnDark" type="button" onClick={() => navigate('/pay')}>
                     Оплатить
                 </button>
             </div>

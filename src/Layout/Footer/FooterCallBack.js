@@ -1,11 +1,13 @@
 import React from 'react';
+import {useNavigate} from "react-router-dom";
 
 const FooterCallBack = () => {
+    const navigate = useNavigate();
     return (
         <div className="footer__callBack">
             <div className="footer__btns">
-                <button className="btn footer__btn">Личный кабинет</button>
-                <button className="btn footer__btn">Оплатить</button>
+                <button className="btn footer__btn" type="button">Личный кабинет</button>
+                <button className="btn footer__btn" type="button" onClick={() => navigate('/pay')}>Оплатить</button>
             </div>
             <div className="footer__tel">
                 <svg width="12" height="18" viewBox="0 0 12 18" fill="none" xmlns="http://www.w3.org/2000/svg">

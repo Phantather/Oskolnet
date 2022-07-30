@@ -1,8 +1,8 @@
 import React from 'react';
+import {Routes, Route, useLocation} from "react-router-dom";
 import Header from "./Header/Header";
 import Footer from "./Footer/Footer";
 import Main from "../pages/Main/Main";
-import {Routes, Route} from "react-router-dom";
 import Document from "../pages/Document/Document";
 import ForHome from "../pages/ForHome/ForHome";
 import ForBusiness from "../pages/ForBusiness/ForBusiness";
@@ -11,11 +11,16 @@ import Contact from "../pages/Contact/Contact";
 import Pay from "../pages/Pay/Pay";
 import About from "../pages/About/About";
 import Test from "../pages/Test/Test";
+import NotFound from "../pages/NotFound/NotFound";
 
 const Layout = () => {
+
+    const location = useLocation();
+
     return (
         <>
-            <Header/>
+             <Header/>
+
             <Routes>
                 <Route path={'/'} element={<Main/>}/>
                 <Route path={'/document'} element={<Document/>}/>
@@ -26,8 +31,12 @@ const Layout = () => {
                 <Route path={'/pay'} element={<Pay/>}/>
                 <Route path={'/about'} element={<About/>}/>
                 <Route path={'/test'} element={<Test/>}/>
+                <Route path={'/*'} element={<NotFound/>}/>
             </Routes>
-            <Footer/>
+
+           <Footer/>
+
+
         </>
     );
 };
