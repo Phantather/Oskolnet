@@ -1,0 +1,28 @@
+.contact {
+  background: url("../../assets/contact/cBg.png") center/cover no-repeat;
+  padding: 28px 0 304px;
+  &__block {
+    width: 590px;
+    background: #FFFFFF;
+    opacity: 0.9;
+    padding: 39px 0 39px 55px;
+    margin-top: 47px;
+  }
+  &__item {
+    display: flex;
+    column-gap: 22px;
+    margin-bottom: 12px;
+  }
+  &__tel {
+    @include fonts(700, 24px, 35px);
+    color: $primary-color;
+  }
+  &__link {
+    @include fonts(400, 18px, 140%);
+    color: $primary-color;
+  }
+  &__social {
+    display: flex;
+    column-gap: 18px;
+  }
+}
