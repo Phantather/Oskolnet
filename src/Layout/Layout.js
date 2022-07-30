@@ -10,6 +10,7 @@ import News from "../pages/News/News";
 import Contact from "../pages/Contact/Contact";
 import Pay from "../pages/Pay/Pay";
 import About from "../pages/About/About";
+import Test from "../pages/Test/Test";
 
 const Layout = () => {
     return (
@@ -24,6 +25,7 @@ const Layout = () => {
                 <Route path={'/contact'} element={<Contact/>}/>
                 <Route path={'/pay'} element={<Pay/>}/>
                 <Route path={'/about'} element={<About/>}/>
+                <Route path={'/test'} element={<Test/>}/>
             </Routes>
             <Footer/>
         </>
