@@ -4,23 +4,25 @@ import NewsRow from "./NewsRow";
 
 const News = () => {
     return (
-        <section className="news">
-            <div className="container">
-                <div className="rate__links">
-                    <NavLink to={'/'} className="rate__links-nav">
-                        Главная
-                    </NavLink>
-                    /
-                    <NavLink to={'/news'} className="rate__links-nav">
+        <main>
+            <section className="news">
+                <div className="container">
+                    <div className="rate__links">
+                        <NavLink to={'/'} className="rate__links-nav">
+                            Главная
+                        </NavLink>
+                        /
+                        <NavLink to={'/news'} className="rate__links-nav">
+                            Новости
+                        </NavLink>
+                    </div>
+                    <h2 className="title">
                         Новости
-                    </NavLink>
+                    </h2>
+                    <NewsRow/>
                 </div>
-                <h2 className="title">
-                    Новости
-                </h2>
-                <NewsRow/>
-            </div>
-        </section>
+            </section>
+        </main>
     );
 };
 
