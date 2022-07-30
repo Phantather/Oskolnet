@@ -1,6 +1,11 @@
 .rate {
   background: #E5E5E5;;
   padding: 51px 0;
+  &__links {
+    display: flex;
+    column-gap: 6px;
+    justify-content: center;
+  }
   &__info {
     background: #ffffff;
     border-radius: 15px;
