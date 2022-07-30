@@ -103,7 +103,8 @@
   &__gallery {
     &-row {
       display: flex;
-      column-gap: 20px;
+      flex-wrap: wrap;
+      gap: 20px;
       margin-top: 43px;
     }
     &-card {
@@ -141,6 +142,32 @@
     row-gap: 20px;
   }
   .about__block {
+    width: 100%;
+  }
+}
+
+@media (max-width: 578px) {
+  .about__title {
+    font-size: 43px;
+  }
+  .about__dynamic-item {
+    width: 100%;
+  }
+  .about__dynamic-title {
+    font-size: 50px;
+  }
+  .about__dynamic-img {
+    width: 100%;
+  }
+  .about__best-card {
+    width: 100%;
+    text-align: center;
+  }
+  .about__best-icon {
+    display: flex;
+    margin: 0 auto;
+  }
+  .about__gallery-card {
     width: 100%;
   }
 }
