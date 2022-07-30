@@ -1,0 +1,32 @@
+.pay {
+  background: #E5E5E5;
+  padding: 23px 0 212px;
+  &__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 12px 40px 10px 32px;
+    &-text {
+      @include fonts(700, 24px, 35px);
+      color: $light-color;
+    }
+    &-icon {
+      width: 27px;
+      height: 27px;
+      border: 2px solid $primary-color;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+  }
+}
