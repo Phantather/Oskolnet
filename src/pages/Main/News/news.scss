@@ -49,3 +49,19 @@
     }
   }
 }
+
+@media (max-width: 769px) {
+  .news__row {
+    justify-content: center;
+  }
+  .news__card {
+    width: calc(50% - 10px);
+  }
+}
+
+
+@media (max-width: 426px) {
+  .news__card {
+    width: 100%;
+  }
+}

@@ -1,0 +1,32 @@
+.map {
+  padding: 43px 0 88px;
+  &__info {
+    margin-top: 43px;
+    &-title {
+      @include fonts(700, 30px, 44px);
+      color: $primary-color;
+      text-align: center;
+      margin-bottom: 105px;
+    }
+  }
+  &__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+  &__item {
+    display: flex;
+    column-gap: 120px;
+    padding: 0 0 8px 6px;
+    border-bottom: 1px solid #000000;
+    &-street {
+      width: 30%;
+    }
+    &-title {
+      @include fonts(700, 20px, 130%);
+    }
+    &-location {
+      @include fonts(400, 20px, 130%);
+    }
+  }
+}

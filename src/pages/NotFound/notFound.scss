@@ -1,6 +1,9 @@
 .notFound {
   padding: 80px 0;
   text-align: center;
+  img {
+    width: 100%;
+  }
   &__text {
     @include fonts(400, 18px, 140%);
     color: $primary-color;

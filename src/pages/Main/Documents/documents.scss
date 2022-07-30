@@ -27,3 +27,11 @@
     padding: 12px 65px;
   }
 }
+
+@media (max-width: 769px) {
+  .documents__content {
+    flex-direction: column;
+    row-gap: 15px;
+    align-items: start;
+  }
+}

@@ -24,3 +24,22 @@
     }
   }
 }
+
+
+@media (max-width: 641px) {
+  .begin__content {
+    padding: 30px 110px 30px 65px;
+    img {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 426px) {
+  .begin__content-title {
+    font-size: 48px;
+  }
+  .begin__content-small {
+    font-size: 23px;
+  }
+}

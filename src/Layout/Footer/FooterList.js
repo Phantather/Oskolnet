@@ -3,7 +3,7 @@ import {Link} from "react-router-dom";
 
 const FooterList = () => {
     return (
-        <>
+        <div className="footer__left">
             <ul className="footer__list">
                 <li className="footer__item">
                     <Link className="footer__link" to={'/about'}>
@@ -50,7 +50,7 @@ const FooterList = () => {
                     </Link>
                 </li>
             </ul>
-        </>
+        </div>
     );
 };
 

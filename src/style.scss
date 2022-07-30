@@ -33,6 +33,12 @@
   color: #ffffff;
 }
 
+@media (max-width: 426px) {
+  .title {
+    font-size: 28px;
+  }
+}
+
 
 
 
@@ -49,5 +55,6 @@
 @import "./pages/Pay/pay";
 @import "./pages/Test/test";
 @import "./pages/NotFound/notFound";
+@import "./pages/Map/map";
 
 @import "./Layout/Footer/footer";

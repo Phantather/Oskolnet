@@ -26,3 +26,9 @@
     column-gap: 18px;
   }
 }
+
+@media (max-width: 426px) {
+  .contact__block {
+    width: 100%;
+  }
+}

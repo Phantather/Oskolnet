@@ -12,6 +12,7 @@ import Pay from "../pages/Pay/Pay";
 import About from "../pages/About/About";
 import Test from "../pages/Test/Test";
 import NotFound from "../pages/NotFound/NotFound";
+import Map from "../pages/Map/Map";
 
 const Layout = () => {
 
@@ -19,7 +20,9 @@ const Layout = () => {
 
     return (
         <>
-             <Header/>
+            {
+                location.pathname === '/*' ? "" : <Header/>
+            }
 
             <Routes>
                 <Route path={'/'} element={<Main/>}/>
@@ -31,10 +34,14 @@ const Layout = () => {
                 <Route path={'/pay'} element={<Pay/>}/>
                 <Route path={'/about'} element={<About/>}/>
                 <Route path={'/test'} element={<Test/>}/>
+                <Route path={'/map'} element={<Map/>}/>
                 <Route path={'/*'} element={<NotFound/>}/>
             </Routes>
 
-           <Footer/>
+            {
+                location.pathname === '/*' ? "" :   <Footer/>
+            }
+
 
 
         </>

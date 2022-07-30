@@ -143,3 +143,60 @@
     }
   }
 }
+
+@media (max-width: 1025px) {
+  .rate__row {
+    flex-wrap: wrap;
+    row-gap: 25px;
+  }
+  .rate__card {
+    width: calc(25% - 18.75px);
+  }
+}
+
+@media (max-width: 769px) {
+  .rate__row {
+    justify-content: center;
+  }
+  .rate__card {
+    width: calc(33.33333% - 16.66666px);
+  }
+  .rate__list {
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .rate__item {
+    width: calc(50% - 10px);
+  }
+  .rate__call-block {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  .rate__call-input {
+    width: 100%;
+  }
+  .rate__call-between {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 641px) {
+  .rate__card {
+    width: calc(50% - 12.5px);
+  }
+  .rate__call-title {
+    font-size: 33px;
+  }
+}
+
+@media (max-width: 426px) {
+  .rate__card {
+    width: 100%;
+  }
+  .rate__call-title {
+    font-size: 20px;
+  }
+  .rate__call {
+    padding: 29px 52px 29px 52px;
+  }
+}
