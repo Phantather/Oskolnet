@@ -89,3 +89,9 @@
     font-size: 13px;
   }
 }
+
+@media (max-width: 321px) {
+  .header__link {
+    font-size: 10px;
+  }
+}

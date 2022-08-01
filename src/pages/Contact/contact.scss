@@ -32,3 +32,9 @@
     width: 100%;
   }
 }
+
+@media (max-width: 321px) {
+  .contact__tel {
+    font-size: 21px;
+  }
+}

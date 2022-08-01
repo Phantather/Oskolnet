@@ -21,3 +21,15 @@
     border-radius: 60px;
   }
 }
+
+@media (max-width: 321px) {
+  .test__speed {
+    img {
+      width: 100%;
+    }
+    width: 290px;
+  }
+  .test__btn {
+    padding: 0 101px;
+  }
+}

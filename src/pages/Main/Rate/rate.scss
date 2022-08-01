@@ -5,7 +5,15 @@
     display: flex;
     column-gap: 6px;
     justify-content: center;
+    &-nav {
+      @include fonts(400, 18px, 140%);
+      color: $light-color;
+      .active {
+        color: #6984F060;
+      }
+    }
   }
+
   &__info {
     background: #ffffff;
     border-radius: 15px;
@@ -144,6 +152,7 @@
   }
 }
 
+
 @media (max-width: 1025px) {
   .rate__row {
     flex-wrap: wrap;
@@ -198,5 +207,17 @@
   }
   .rate__call {
     padding: 29px 52px 29px 52px;
+  }
+}
+
+@media (max-width: 321px) {
+  .rate__item {
+    font-size: 17px;
+  }
+  .rate__info{
+    padding: 51px 20px 23px;
+  }
+  .rate__call {
+    padding: 29px 20px;
   }
 }
