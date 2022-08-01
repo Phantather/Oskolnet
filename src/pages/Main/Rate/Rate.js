@@ -1,8 +1,8 @@
 import React from 'react';
-import RateInfo from "./RateInfo/RateInfo";
-import RateCall from "./RateCall";
-import RateAddress from "./RateAddress";
-import RateSpeed from "./RateSpeed";
+import RateInfo from "../../../components/Rate/RateInfo/RateInfo";
+import RateCall from "../../../components/Rate/RateCall";
+import RateAddress from "../../../components/Rate/RateAddress";
+import RateSpeed from "../../../components/Rate/RateSpeed";
 
 const Rate = () => {
     return (

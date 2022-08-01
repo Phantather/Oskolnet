@@ -1,7 +1,7 @@
 import React from 'react';
-import RateInfo from "../Main/Rate/RateInfo/RateInfo";
-import RateCall from "../Main/Rate/RateCall";
-import RateAddress from "../Main/Rate/RateAddress";
+import RateInfo from "../../components/Rate/RateInfo/RateInfo";
+import RateCall from "../../components/Rate/RateCall";
+import RateAddress from "../../components/Rate/RateAddress";
 import {NavLink} from "react-router-dom";
 
 

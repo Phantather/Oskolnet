@@ -6,7 +6,7 @@ const RateCall = () => {
             <h3 className="rate__call-title">
                 Трудно выбрать? Мы поможем!
             </h3>
-            <form action="" className="rate__call-form">
+            <form action="src/components/Rate/RateCall" className="rate__call-form">
                 <div className="rate__call-block">
                     <input className="rate__call-input" type="text" placeholder="+7 (___) ___-__-__ *"/>
                     <input className="rate__call-input" type="text" placeholder="Как Вас зовут? *"/>

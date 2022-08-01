@@ -1,6 +1,6 @@
 import React from 'react';
 import {NavLink} from "react-router-dom";
-import RateAddress from "../Main/Rate/RateAddress";
+import RateAddress from "../../components/Rate/RateAddress";
 import MapInfo from "./MapInfo";
 
 const Map = () => {
