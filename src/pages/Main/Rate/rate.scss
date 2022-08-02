@@ -210,6 +210,18 @@
   }
 }
 
+@media (max-width: 361px) {
+  .rate__btn {
+    padding: 11px 81px;
+  }
+  .rate__call {
+    padding: 29px;
+  }
+  .rate__info{
+    padding: 51px 20px 23px;
+  }
+}
+
 @media (max-width: 321px) {
   .rate__item {
     font-size: 17px;

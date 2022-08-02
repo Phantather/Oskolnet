@@ -22,6 +22,42 @@
   }
 }
 
+@media (max-width: 641px) {
+  .test__speed {
+    img {
+      width: 100%;
+    }
+    width: 540px;
+  }
+  .test__btn {
+    padding: 0 101px;
+  }
+}
+
+@media (max-width: 425px) {
+  .test__speed {
+    img {
+      width: 100%;
+    }
+    width: 360px;
+  }
+  .test__btn {
+    padding: 0 101px;
+  }
+}
+
+@media (max-width: 361px) {
+  .test__speed {
+    img {
+      width: 100%;
+    }
+    width: 320px;
+  }
+  .test__btn {
+    padding: 0 101px;
+  }
+}
+
 @media (max-width: 321px) {
   .test__speed {
     img {

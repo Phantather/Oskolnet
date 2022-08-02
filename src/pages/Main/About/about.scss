@@ -172,6 +172,15 @@
   }
 }
 
+@media (max-width: 361px) {
+  .about__title {
+    font-size: 36px;
+  }
+  .about__dynamic-title {
+    font-size: 42px;
+  }
+}
+
 @media (max-width: 321px) {
   .about__title {
     font-size: 31px;
