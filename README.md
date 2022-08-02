@@ -2,6 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## For used to move through the pages
+
+From react-router-dom:
+
+### `1) useNavigate, useLocation <br> 2) BrowserRouter Routes, Route `
+
 ## Available Scripts
 
 In the project directory, you can run:
