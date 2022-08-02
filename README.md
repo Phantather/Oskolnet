@@ -4,9 +4,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## For used to move through the pages
 
-From react-router-dom:
+From react-router-dom
 
-### `1) useNavigate, useLocation <br> 2) BrowserRouter Routes, Route `
+BrowserRouter Routes, Route,
+useNavigate, useLocation 
+
 
 ## Available Scripts
 
